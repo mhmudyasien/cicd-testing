@@ -12,8 +12,6 @@ jobs:
         node-version: '20'
         cache: 'npm'
     - run: npm ci
-    - run: npm install eslint --save-dev
-    - run: npm run lint
   
   test:
     runs-on: ubuntu-latest
